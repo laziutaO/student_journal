@@ -7,7 +7,7 @@ var app = express();
 app.use(cors());
 app.use(express.json()); 
 
-var conn_str = 'mongodb+srv://laziutaoleksij:Ln4wGEE7YSB4cBGV@cluster0.xfkapfn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+var conn_str = '';
 
 var DATABASENAME = 'students_db';
 var database;
